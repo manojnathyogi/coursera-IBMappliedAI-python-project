@@ -3,8 +3,8 @@ import json
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from pandas import json_normalize
 
-url_lt = "https://api.us-south.language-translator.watson.cloud.ibm.com/instances/971ca9f6-ea42-4f03-86bd-f290c32de433"
-apikey_lt = "_wETvMMpcZVt0YObpse2_jToi-pE07zyfP0CBDsfkAQe"
+url_lt = "https://api.us-south.language-translator.watson.cloud.ibm.com/instances/---Hidden---"
+apikey_lt = "Hidden For Security"
 version_lt ="2018-05-01"
 authenticator = IAMAuthenticator(apikey_lt)
 language_translator = LanguageTranslatorV3(version=version_lt, authenticator=authenticator)
